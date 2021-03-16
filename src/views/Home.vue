@@ -1,7 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg="Welcome to The Champions League"/>
   </div>
 </template>
 
@@ -16,3 +15,12 @@ export default {
   }
 }
 </script>
+
+<style>
+  .home {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/cl.jpg');
+    background-size: cover;
+  }
+</style>
