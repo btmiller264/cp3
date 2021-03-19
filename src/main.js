@@ -15,6 +15,7 @@ Vue.use(IconsPlugin)
 let data = {
   teams: teams,
   games: games,
+  quarterFinals: [],
 }
 
 new Vue({
